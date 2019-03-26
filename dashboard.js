@@ -161,7 +161,9 @@ async function getFolloweeList() {
       localStorage.setItem('dashboard:following', JSON.stringify(followees))
       listOfFollowees = results
     }
-  } else {
+  }
+
+  if (followees && !listOfFollowees) {
     listOfFollowees = JSON.parse(followees).following
   }
 
@@ -172,7 +174,7 @@ async function fetchFollowees() {
   console.log('Dashboard extension: updating list of people you follow from GitHub API (once every 24h)')
   return new Promise(async function(resolve) {
     let followees = []
-    const user = document.querySelector('.HeaderNavlink.name img').alt.slice(1)
+    const user = document.querySelector('.Header-link .avatar').alt.slice(1)
     const endpoint = `https://api.github.com/users/${user}/following`
     let page = 1
     let erred = false

@@ -2,58 +2,58 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Author</key>
-  <string>Mu-An Chiou</string>
-  <key>Builder Version</key>
-  <string>14606.3.4</string>
-  <key>CFBundleDisplayName</key>
-  <string>github-dashboard</string>
-  <key>CFBundleIdentifier</key>
-  <string>muan.github-dashboard</string>
-  <key>CFBundleInfoDictionaryVersion</key>
-  <string>6.0</string>
-  <key>CFBundleShortVersionString</key>
-  <string>1.0</string>
-  <key>CFBundleVersion</key>
-  <string>1</string>
-  <key>Content</key>
-  <dict>
-    <key>Scripts</key>
-    <dict>
-      <key>Start</key>
-      <array>
-        <string>dashboard.js</string>
-      </array>
-    </dict>
-    <key>Stylesheets</key>
-    <array>
-      <string>dashboard.css</string>
-    </array>
-    <key>Whitelist</key>
-    <array>
-      <string>https://github.com/</string>
-      <string>https://github.com/dashboard</string>
-    </array>
-  </dict>
-  <key>Description</key>
-  <string>Filter events on github.com activity dashboard</string>
-  <key>ExtensionInfoDictionaryVersion</key>
-  <string>1.0</string>
-  <key>Permissions</key>
-  <dict>
-    <key>Website Access</key>
-    <dict>
-      <key>Allowed Domains</key>
-      <array>
-        <string>github.com</string>
-      </array>
-      <key>Include Secure Pages</key>
-      <true/>
-      <key>Level</key>
-      <string>Some</string>
-    </dict>
-  </dict>
-  <key>Website</key>
-  <string>https://github.com/muan/github-dashboard.safariextension</string>
+	<key>Author</key>
+	<string>Mu-An Chiou</string>
+	<key>Builder Version</key>
+	<string>14606.4.5</string>
+	<key>CFBundleDisplayName</key>
+	<string>github-dashboard</string>
+	<key>CFBundleIdentifier</key>
+	<string>muan.github-dashboard</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>dashboard.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>dashboard.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>https://github.com/</string>
+			<string>https://github.com/dashboard</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Filter events on github.com activity dashboard</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>github.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/muan/github-dashboard.safariextension</string>
 </dict>
 </plist>
