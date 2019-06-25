@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Mu-An Chiou</string>
 	<key>Builder Version</key>
-	<string>14606.4.5</string>
+	<string>14607.2.6.1.1</string>
 	<key>CFBundleDisplayName</key>
 	<string>github-dashboard</string>
 	<key>CFBundleIdentifier</key>
@@ -37,6 +37,8 @@
 	</dict>
 	<key>Description</key>
 	<string>Filter events on github.com activity dashboard</string>
+	<key>DeveloperIdentifier</key>
+	<string>PB392NPZ3Z</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
